@@ -2,6 +2,18 @@
 
 ClimateSense is a local climate-data workbench for validating monthly temperature CSVs, exploring observations, comparing chronological forecasts, and reviewing statistical outliers. It combines a Next.js dashboard with a FastAPI/Python analysis service. It does not host data remotely or claim climate attribution.
 
+## Interactive previews
+
+Click any screenshot to jump to the related workflow or methodology. These captures show the clearly labeled synthetic demo; their values are for interface and pipeline testing, not real climate observations.
+
+| Overview · [workflow](#workflow) | Forecast studio · [models](#models-and-interpretation) |
+| --- | --- |
+| [![ClimateSense overview](docs/images/overview.png)](#workflow) | [![ClimateSense forecast studio](docs/images/forecast-studio.png)](#models-and-interpretation) |
+
+| Anomaly explorer · [anomaly method](docs/METHODOLOGY.md#anomalies) | Data explorer · [CSV format](#csv-format) |
+| --- | --- |
+| [![ClimateSense anomaly explorer](docs/images/anomaly-explorer.png)](docs/METHODOLOGY.md#anomalies) | [![ClimateSense data explorer](docs/images/data-explorer.png)](#csv-format) |
+
 ## Local setup
 
 Prerequisites: Python 3.10+ and Node.js 20.9+. Run the API and frontend in separate terminals from the project root.
